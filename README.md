@@ -91,7 +91,7 @@ state        | string   | A value unique to this authorization request. You shou
                     var scopes = token.scope;
                     
                     // We also include the full user response of the newly authenticated user. 
-                    var user = access_token.user;
+                    var user = token.user;
             }
         });
 ```
